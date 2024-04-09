@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="app.bundle.js"></script></head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Welcome to Weather App</h1>
+            <p>Get accurate weather forecasts anytime, anywhere.</p>
+            <form>
+                <input type="text" id="location" placeholder="Enter location...">
+                <button type="submit" id="btn">Get Weather</button>
+            </form>
+        </div>
+        <div class="popup-container" id="popupContainer">
+            <div class="popup">
+              <span class="popup-close">Close</span>
+              <h2>Weather Details</h2>
+              <div id="weatherDetails">
+                <p id="cityName"></p>
+                <p id="cityLocation"></p>
+                <div class="weather-flex">
+                    <img src="#" id="weather-img">
+                    <p id="weatherDesc"></p>
+                </div>
+                <p id="temp"></p>
+              </div>
+            </div>
+          </div>          
+    </div>
+</body>
+</html>
